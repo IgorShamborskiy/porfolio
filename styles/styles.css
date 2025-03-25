@@ -81,6 +81,9 @@ ul li {
     .container {
         flex-direction: column;
         padding: 10px;
+        .sidebar img{
+            max-width: 50%;
+        }
     }
 
     .sidebar {
