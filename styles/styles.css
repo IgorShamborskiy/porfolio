@@ -23,6 +23,7 @@ body {
 
 /* Бічна панель */
 .sidebar {
+    padding: 15px;
     flex: 1;
     min-width: 300px;
     text-align: center;
@@ -81,10 +82,11 @@ ul li {
     .container {
         flex-direction: column;
         padding: 10px;
+    }
         .sidebar img{
             max-width: 50%;
         }
-    }
+    
 
     .sidebar {
         order: -1;
